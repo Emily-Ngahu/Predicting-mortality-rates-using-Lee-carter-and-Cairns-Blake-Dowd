@@ -1,0 +1,6 @@
+install.packages("demography")
+install.packages("StMoMo")
+install.packages("lifecontingencies")
+library(demography)
+USA_DATA<-hmd.mx(country="USA", username="graceshiks74@gmail.com", password="@Grace4073", label="USA")
+USA_DATA
